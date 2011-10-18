@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  [name: MyString
+  money: 1
+  items: 
+
+two:
+  [name: MyString
+  money: 1
+  items: 
