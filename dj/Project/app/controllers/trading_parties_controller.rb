@@ -17,6 +17,8 @@ class TradingPartiesController < ApplicationController
 		@item = Item.where(:traveling_party_id=>@traveling_party.id).first
 		@traveling_party.capacity +=  @item.quantity
 		@traveling_party.save
+		@store = Store.new
+		@store.save
 		redirect_to '/storesub/'
 	end
 

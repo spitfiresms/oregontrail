@@ -1,9 +1,7 @@
 class Store < ActiveRecord::Base
 	
-	belongs_to :traveling_party
-	after_initialize :init
+	belongs_to :trading_party
+	has_many :items
+	accepts_nested_attributes_for :items, :allow_destroy => false
 	
-	def init
-		self.foodamt = 0
-	end
 end
