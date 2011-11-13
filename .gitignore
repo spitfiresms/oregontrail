@@ -1,0 +1,14 @@
+*~
+*.swp
+*.log
+*.cache
+*.tmproj
+.bundle
+.DS_Store
+*.backup.sql
+*.backup
+
+Project/db/*.sqlite3
+Project/log/*.log
+Project/tmp/
+Project/.sass-cache/
